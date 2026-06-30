@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MealMint Health Labs responsive meal planning application demo.">
+  <title>MealMint Health Labs</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    body[data-page="index"] {
+      background:
+        radial-gradient(circle at top left, rgba(46, 204, 143, 0.12), transparent 34%),
+        linear-gradient(180deg, #f8faf9 0%, #ffffff 52%, #f8faf9 100%);
+    }
+
+    body[data-page="index"] .topbar {
+      background: rgba(255, 255, 255, 0.82);
+      backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(229, 231, 235, 0.9);
+    }
+
+
+
+    .premium-hero-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .premium-copy {
+      max-width: 680px;
+    }
+
+    .premium-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 14px;
+      border: 1px solid rgba(46, 204, 143, 0.28);
+      background: rgba(46, 204, 143, 0.08);
+      color: #1a8c5f;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+
+    .premium-label-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: #2ecc8f;
+      box-shadow: 0 0 0 5px rgba(46, 204, 143, 0.14);
+    }
+
+    .premium-copy h1 {
+      margin: 0;
+      max-width: 620px;
+      color: #1a1a2e;
+      font-size: clamp(38px, 5vw, 66px);
+      line-height: 1.04;
+      letter-spacing: -0.055em;
+      font-weight: 650;
+    }
+
+    .premium-copy h1 span {
+      color: #1a8c5f;
+    }
+
+    .premium-copy .hero-text {
+      margin: 22px 0 0;
+      max-width: 610px;
+      color: #6b7280;
+      font-size: 17px;
+      line-height: 1.8;
+      font-weight: 400;
+    }
+
+    .premium-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 14px;
+      margin-top: 30px;
+    }
+
+    .premium-actions .btn {
+      min-height: 48px;
+      padding: 0 22px;
+      border-radius: 14px;
+      font-weight: 600;
+      box-shadow: none;
+    }
+
+    .premium-actions .btn-primary {
+      background: #2ecc8f;
+      color: #ffffff;
+      border: 1px solid #2ecc8f;
+    }
+
+    .premium-actions .btn-primary:hover {
+      background: #1a8c5f;
+      border-color: #1a8c5f;
+      transform: translateY(-1px);
+    }
+
+    .ghost-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 14px;
+      color: #1a1a2e;
+      border: 1px solid #e5e7eb;
+      background: rgba(255, 255, 255, 0.74);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      transition: 0.2s ease;
+    }
+
+    .ghost-link:hover {
+      border-color: rgba(46, 204, 143, 0.48);
+      color: #1a8c5f;
+      transform: translateY(-1px);
+    }
+
+    .premium-meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      margin-top: 34px;
+      color: #6b7280;
+      font-size: 13px;
+    }
+
+    .premium-meta-row span {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .premium-meta-row span::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #22c55e;
+    }
+
+    .premium-panel {
+      position: relative;
+      border-radius: 28px;
+      padding: 22px;
+      background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(248, 250, 249, 0.88));
+      border: 1px solid rgba(229, 231, 235, 0.96);
+      box-shadow:
+        0 28px 80px rgba(26, 26, 46, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    }
+
+    .premium-panel::before {
+      content: "";
+      position: absolute;
+      inset: -1px;
+      border-radius: 28px;
+      padding: 1px;
+      background: linear-gradient(135deg, rgba(46, 204, 143, 0.48), transparent 42%, rgba(26, 140, 95, 0.2));
+      mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+      mask-composite: exclude;
+      pointer-events: none;
+    }
+
+    .panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 6px 4px 20px;
+    }
+
+    .panel-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .panel-brand svg {
+      width: 42px;
+      height: 42px;
+    }
+
+    .panel-brand strong {
+      display: block;
+      font-size: 14px;
+      color: #1a1a2e;
+      font-weight: 650;
+    }
+
+    .panel-brand small {
+      display: block;
+      margin-top: 3px;
+      color: #6b7280;
+      font-size: 12px;
+    }
+
+    .status-badge {
+      color: #1a8c5f;
+      background: rgba(46, 204, 143, 0.11);
+      border: 1px solid rgba(46, 204, 143, 0.28);
+      font-size: 12px;
+      font-weight: 650;
+      padding: 8px 12px;
+      border-radius: 999px;
+    }
+
+    .planner-preview {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 8px;
+      padding: 16px;
+      border-radius: 22px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+    }
+
+    .mini-day {
+      min-height: 170px;
+      border-radius: 16px;
+      padding: 10px;
+      background: #f8faf9;
+      border: 1px solid #eef0f1;
+    }
+
+    .mini-day strong {
+      display: block;
+      color: #1a1a2e;
+      font-size: 11px;
+      font-weight: 650;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .mini-meal {
+      border-radius: 12px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      padding: 9px;
+      margin-bottom: 8px;
+    }
+
+    .mini-meal b {
+      display: block;
+      color: #1a1a2e;
+      font-size: 11px;
+      line-height: 1.35;
+      font-weight: 650;
+    }
+
+    .mini-meal span {
+      display: block;
+      margin-top: 3px;
+      color: #6b7280;
+      font-size: 10px;
+    }
+
+    .preview-summary {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .summary-tile {
+      padding: 16px;
+      border-radius: 18px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+    }
+
+    .summary-tile small {
+      display: block;
+      color: #6b7280;
+      font-size: 12px;
+      margin-bottom: 8px;
+    }
+
+    .summary-tile strong {
+      color: #1a1a2e;
+      font-size: 22px;
+      line-height: 1;
+      font-weight: 650;
+    }
+
+    .summary-tile.success strong {
+      color: #22c55e;
+    }
+
+    /* .premium-section {
+      padding: 28px 0 78px;
+    } */
+
+    .premium-section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+
+    .premium-section-head h2 {
+      margin: 0;
+      color: #1a1a2e;
+      font-size: clamp(26px, 3vw, 38px);
+      line-height: 1.15;
+      letter-spacing: -0.035em;
+      font-weight: 650;
+    }
+
+    .premium-section-head p {
+      margin: 10px 0 0;
+      max-width: 560px;
+      color: #6b7280;
+      line-height: 1.7;
+    }
+
+    .premium-feature-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .premium-feature {
+      position: relative;
+      overflow: hidden;
+      min-height: 218px;
+      padding: 26px;
+      border-radius: 24px;
+      background: rgba(255, 255, 255, 0.84);
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 20px 55px rgba(26, 26, 46, 0.045);
+      transition: 0.22s ease;
+    }
+
+    .premium-feature:hover {
+      transform: translateY(-3px);
+      border-color: rgba(46, 204, 143, 0.38);
+      box-shadow: 0 24px 70px rgba(26, 26, 46, 0.07);
+    }
+
+    .premium-feature::after {
+      content: "";
+      position: absolute;
+      right: -34px;
+      top: -34px;
+      width: 112px;
+      height: 112px;
+      border-radius: 999px;
+      background: rgba(46, 204, 143, 0.08);
+    }
+
+    .feature-icon {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 14px;
+      background: rgba(46, 204, 143, 0.12);
+      color: #1a8c5f;
+      font-weight: 700;
+      margin-bottom: 22px;
+    }
+
+    .premium-feature h3 {
+      margin: 0 0 10px;
+      color: #1a1a2e;
+      font-size: 18px;
+      line-height: 1.35;
+      font-weight: 650;
+    }
+
+    .premium-feature p {
+      margin: 0;
+      color: #6b7280;
+      font-size: 14px;
+      line-height: 1.75;
+    }
+
+    .footer {
+      background: rgba(255, 255, 255, 0.78);
+    }
+
+    @media (max-width: 980px) {
+      .premium-hero-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .premium-panel {
+        max-width: 680px;
+      }
+
+      .premium-feature-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .premium-section-head {
+        display: block;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .premium-hero {
+        padding: 44px 0 34px;
+      }
+
+      .premium-copy h1 {
+        font-size: 38px;
+      }
+
+      .premium-copy .hero-text {
+        font-size: 15px;
+      }
+
+      .premium-actions {
+        align-items: stretch;
+      }
+
+      .premium-actions .btn,
+      .ghost-link {
+        width: 100%;
+      }
+
+      .planner-preview {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .preview-summary {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 430px) {
+      .planner-preview {
+        grid-template-columns: 1fr;
+      }
+
+      .premium-panel {
+        padding: 16px;
+        border-radius: 22px;
+      }
+
+      .panel-header {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body data-page="index">
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="nav-wrap">
+        <a class="brand-link" href="mealmint-index.html" aria-label="MealMint Health Labs home">
+          <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+            <polygon points="32 4 56 18 32 60 8 18" fill="#2ECC8F"></polygon>
+            <polygon points="32 4 56 18 34 60 34 10" fill="#1A8C5F" opacity="0.42"></polygon>
+          </svg>
+          <span>
+            <span class="brand-name">MealMint Health Labs</span>
+            <!-- <span class="brand-subtitle">Plan Smart. Eat Well.</span> -->
+          </span>
+        </a>
+
+        <nav class="nav-menu" aria-label="Primary navigation">
+          <a class="nav-link" data-nav="index" href="mealmint-index.html">Home</a>
+          <a class="nav-link" data-nav="goals" href="mealmint-goals.html">Goals</a>
+          <a class="nav-link" data-nav="library" href="mealmint-library.html">Library</a>
+          <a class="nav-link" data-nav="planner" href="mealmint-planner.html">Planner</a>
+          <a class="nav-link" data-nav="dashboard" href="mealmint-dashboard.html">Dashboard</a>
+          <a class="nav-link" data-nav="grocery" href="mealmint-grocery.html">Grocery</a>
+        </nav>
+
+        <div class="nav-actions" aria-label="MealMint status">
+          <span class="nav-pill" data-goal-chip>Goal: --</span>
+          <span class="nav-pill" data-kcal-chip>0 kcal</span>
+          <span class="nav-avatar" aria-hidden="true"></span>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="container premium-hero">
+        <div class="premium-hero-grid">
+          <div class="premium-copy">
+            <div class="premium-label">
+              <span class="premium-label-dot"></span>
+              Responsive nutrition planner
+            </div>
+
+            <h1>Plan calm, balanced meals around your <span>weekly health goal.</span></h1>
+
+            <p class="hero-text">
+              MealMint Health Labs helps users choose a nutrition goal, explore structured meals, build a seven-day
+              plan, review nutrition totals, and prepare a consolidated grocery list from local CSV resources.
+            </p>
+
+            <div class="premium-actions">
+              <button class="btn btn-primary" data-start-goals>Start With Your Goal</button>
+              <a class="ghost-link" href="mealmint-library.html">Browse Meal Library</a>
+            </div>
+
+            <!-- <div class="premium-meta-row">
+              <span>CSV powered</span>
+              <span>Local auto-save</span>
+              <span>No login required</span>
+            </div> -->
+          </div>
+
+          <aside class="premium-panel" aria-label="MealMint planner preview">
+            <div class="panel-header">
+              <div class="panel-brand">
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <polygon points="32 4 56 18 32 60 8 18" fill="#2ECC8F"></polygon>
+                  <polygon points="32 4 56 18 34 60 34 10" fill="#1A8C5F" opacity="0.42"></polygon>
+                </svg>
+                <span>
+                  <strong>Weekly Meal Planner</strong>
+                  <small>Plan Smart. Eat Well.</small>
+                </span>
+              </div>
+              <span class="status-badge">Balanced</span>
+            </div>
+
+            <div class="planner-preview">
+              <div class="mini-day">
+                <strong>Mon</strong>
+                <div class="mini-meal">
+                  <b>Oatmeal Bowl</b>
+                  <span>320 kcal</span>
+                </div>
+                <div class="mini-meal">
+                  <b>Grilled Chicken</b>
+                  <span>450 kcal</span>
+                </div>
+              </div>
+
+              <div class="mini-day">
+                <strong>Tue</strong>
+                <div class="mini-meal">
+                  <b>Quinoa Salad</b>
+                  <span>390 kcal</span>
+                </div>
+                <div class="mini-meal">
+                  <b>Salmon Bowl</b>
+                  <span>520 kcal</span>
+                </div>
+              </div>
+
+              <div class="mini-day">
+                <strong>Wed</strong>
+                <div class="mini-meal">
+                  <b>Veg Stir Fry</b>
+                  <span>380 kcal</span>
+                </div>
+                <div class="mini-meal">
+                  <b>Mixed Nuts</b>
+                  <span>180 kcal</span>
+                </div>
+              </div>
+
+              <div class="mini-day">
+                <strong>Thu</strong>
+              </div>
+
+              <div class="mini-day">
+                <strong>Fri</strong>
+                <div class="mini-meal">
+                  <b>Yogurt Parfait</b>
+                  <span>280 kcal</span>
+                </div>
+                <div class="mini-meal">
+                  <b>Beef Tacos</b>
+                  <span>560 kcal</span>
+                </div>
+              </div>
+
+              <div class="mini-day">
+                <strong>Sat</strong>
+                <div class="mini-meal">
+                  <b>Turkey Wrap</b>
+                  <span>410 kcal</span>
+                </div>
+              </div>
+
+              <div class="mini-day">
+                <strong>Sun</strong>
+                <div class="mini-meal">
+                  <b>Greek Yogurt</b>
+                  <span>150 kcal</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="preview-summary">
+              <div class="summary-tile">
+                <small>Weekly calories</small>
+                <strong>3,530</strong>
+              </div>
+              <div class="summary-tile">
+                <small>Protein</small>
+                <strong>180g</strong>
+              </div>
+              <div class="summary-tile success">
+                <small>Status</small>
+                <strong>Ready</strong>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="container premium-section">
+        <div class="premium-section-head">
+          <div>
+            <p class="eyebrow muted">Platform Benefits</p>
+            <h2>A complete static workflow for meal planning.</h2>
+          </div>
+          <!-- <p>
+            Built as a lightweight browser-based application using HTML, CSS, Vanilla JavaScript, localStorage, and CSV
+            data ingestion.
+          </p> -->
+        </div>
+
+        <div class="premium-feature-grid">
+          <article class="premium-feature">
+            <div class="feature-icon">01</div>
+            <h3>Goal-based planning</h3>
+            <p>
+              Select one active health goal and use it across the meal library, planner, dashboard, and grocery list.
+            </p>
+          </article>
+
+          <article class="premium-feature">
+            <div class="feature-icon">02</div>
+            <h3>Seven-day meal grid</h3>
+            <p>
+              Add meals into Breakfast, Lunch, Dinner, and Snack slots with daily totals saved automatically.
+            </p>
+          </article>
+
+          <article class="premium-feature">
+            <div class="feature-icon">03</div>
+            <h3>Nutrition and grocery output</h3>
+            <p>
+              Review weekly nutrition totals against profile ranges and generate a consolidated shopping checklist.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <span>MealMint Health Labs</span>
+        <!-- <span>Plan Smart. Eat Well.</span> -->
+      </div>
+    </footer>
+  </div>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+
+</html>

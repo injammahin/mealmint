@@ -1,0 +1,197 @@
+Day,Slot,MealName,Calories,Goal,MealID
+Monday,Breakfast,Protein Oatmeal Bowl,450,Balanced Healthy Eating,M01
+Monday,Lunch,Grilled Chicken Quinoa Salad,550,Balanced Healthy Eating,M06
+Monday,Dinner,Baked Salmon with Asparagus,620,Balanced Healthy Eating,M11
+Monday,Snack,Whey Protein Shake,200,Balanced Healthy Eating,M16
+Tuesday,Breakfast,Avocado Toast with Egg,380,Balanced Healthy Eating,M02
+Tuesday,Lunch,Turkey Salad Wrap,410,Balanced Healthy Eating,M07
+Tuesday,Dinner,Beef and Broccoli Stir Fry,580,Balanced Healthy Eating,M12
+Tuesday,Snack,Mixed Nuts and Berries,250,Balanced Healthy Eating,M17
+Wednesday,Breakfast,Greek Yogurt Parfait,320,Balanced Healthy Eating,M03
+Wednesday,Lunch,Lentil Soup with Spinach,340,Balanced Healthy Eating,M08
+Wednesday,Dinner,Sweet Potato Chickpea Curry,510,Balanced Healthy Eating,M13
+Wednesday,Snack,Hummus and Carrot Sticks,180,Balanced Healthy Eating,M18
+Thursday,Breakfast,Vegan Tofu Scramble,290,Balanced Healthy Eating,M04
+Thursday,Lunch,Brown Rice Tofu Bowl,480,Balanced Healthy Eating,M09
+Thursday,Dinner,High Protein Turkey Chili,490,Balanced Healthy Eating,M14
+Thursday,Snack,Rice Cakes with Peanut Butter,220,Balanced Healthy Eating,M19
+Friday,Breakfast,Keto Bacon and Eggs,420,Balanced Healthy Eating,M05
+Friday,Lunch,Low Carb Chicken Lettuce Wraps,310,Balanced Healthy Eating,M10
+Friday,Dinner,Zucchini Noodles with Pesto,280,Balanced Healthy Eating,M15
+Friday,Snack,Cottage Cheese with Pineapple,160,Balanced Healthy Eating,M20
+Saturday,Breakfast,Protein Oatmeal Bowl,450,Balanced Healthy Eating,M01
+Saturday,Lunch,Grilled Chicken Quinoa Salad,550,Balanced Healthy Eating,M06
+Saturday,Dinner,Baked Salmon with Asparagus,620,Balanced Healthy Eating,M11
+Saturday,Snack,Whey Protein Shake,200,Balanced Healthy Eating,M16
+Sunday,Breakfast,Avocado Toast with Egg,380,Balanced Healthy Eating,M02
+Sunday,Lunch,Turkey Salad Wrap,410,Balanced Healthy Eating,M07
+Sunday,Dinner,Beef and Broccoli Stir Fry,580,Balanced Healthy Eating,M12
+Sunday,Snack,Mixed Nuts and Berries,250,Balanced Healthy Eating,M17
+Monday,Breakfast,Protein Pancakes,480,Muscle Gain,M21
+Monday,Lunch,Beef Burrito Bowl,640,Muscle Gain,M30
+Monday,Dinner,Grilled Steak with Sweet Potato,650,Muscle Gain,M36
+Monday,Snack,Whey Protein Shake,200,Muscle Gain,M16
+Tuesday,Breakfast,Breakfast Burrito,520,Muscle Gain,M24
+Tuesday,Lunch,Grilled Chicken Quinoa Salad,550,Muscle Gain,M06
+Tuesday,Dinner,Herb Roasted Chicken Thighs,560,Muscle Gain,M33
+Tuesday,Snack,Beef Jerky,120,Muscle Gain,M44
+Wednesday,Breakfast,Smoked Salmon Bagel,440,Muscle Gain,M25
+Wednesday,Lunch,Spicy Tuna Poke Bowl,470,Muscle Gain,M28
+Wednesday,Dinner,Baked Salmon with Asparagus,620,Muscle Gain,M11
+Wednesday,Snack,Mixed Nuts and Berries,250,Muscle Gain,M17
+Thursday,Breakfast,Keto Bacon and Eggs,420,Muscle Gain,M05
+Thursday,Lunch,Low Carb Chicken Lettuce Wraps,310,Muscle Gain,M10
+Thursday,Dinner,High Protein Turkey Chili,490,Muscle Gain,M14
+Thursday,Snack,Whey Protein Shake,200,Muscle Gain,M16
+Friday,Breakfast,Protein Pancakes,480,Muscle Gain,M21
+Friday,Lunch,Grilled Shrimp Tacos,400,Muscle Gain,M31
+Friday,Dinner,Beef and Broccoli Stir Fry,580,Muscle Gain,M12
+Friday,Snack,Beef Jerky,120,Muscle Gain,M44
+Saturday,Breakfast,Protein Pancakes,480,Muscle Gain,M21
+Saturday,Lunch,Beef Burrito Bowl,640,Muscle Gain,M30
+Saturday,Dinner,Grilled Steak with Sweet Potato,650,Muscle Gain,M36
+Saturday,Snack,Whey Protein Shake,200,Muscle Gain,M16
+Sunday,Breakfast,Breakfast Burrito,520,Muscle Gain,M24
+Sunday,Lunch,Grilled Chicken Quinoa Salad,550,Muscle Gain,M06
+Sunday,Dinner,Herb Roasted Chicken Thighs,560,Muscle Gain,M33
+Sunday,Snack,Beef Jerky,120,Muscle Gain,M44
+Monday,Breakfast,Greek Yogurt Parfait,320,Weight Loss,M03
+Monday,Lunch,Lentil Soup with Spinach,340,Weight Loss,M08
+Monday,Dinner,Zucchini Noodles with Pesto,280,Weight Loss,M15
+Monday,Snack,Hummus and Carrot Sticks,180,Weight Loss,M18
+Tuesday,Breakfast,Vegan Tofu Scramble,290,Weight Loss,M04
+Tuesday,Lunch,Butternut Squash Soup,260,Weight Loss,M32
+Tuesday,Dinner,Cauliflower Crust Veggie Pizza,420,Weight Loss,M39
+Tuesday,Snack,Apple with Almond Butter,210,Weight Loss,M40
+Wednesday,Breakfast,Congee with Scallions,260,Weight Loss,M26
+Wednesday,Lunch,Chickpea Pasta Salad,420,Weight Loss,M29
+Wednesday,Dinner,Sweet Potato Chickpea Curry,510,Weight Loss,M13
+Wednesday,Snack,Edamame with Sea Salt,150,Weight Loss,M43
+Thursday,Breakfast,Cottage Cheese with Pineapple,160,Weight Loss,M20
+Thursday,Lunch,Lentil Soup with Spinach,340,Weight Loss,M08
+Thursday,Dinner,Eggplant Parmesan,480,Weight Loss,M37
+Thursday,Snack,Greek Yogurt with Honey,180,Weight Loss,M41
+Friday,Breakfast,Greek Yogurt Parfait,320,Weight Loss,M03
+Friday,Lunch,Butternut Squash Soup,260,Weight Loss,M32
+Friday,Dinner,Zucchini Noodles with Pesto,280,Weight Loss,M15
+Friday,Snack,Hummus and Carrot Sticks,180,Weight Loss,M18
+Saturday,Breakfast,Greek Yogurt Parfait,320,Weight Loss,M03
+Saturday,Lunch,Lentil Soup with Spinach,340,Weight Loss,M08
+Saturday,Dinner,Zucchini Noodles with Pesto,280,Weight Loss,M15
+Saturday,Snack,Hummus and Carrot Sticks,180,Weight Loss,M18
+Sunday,Breakfast,Vegan Tofu Scramble,290,Weight Loss,M04
+Sunday,Lunch,Butternut Squash Soup,260,Weight Loss,M32
+Sunday,Dinner,Cauliflower Crust Veggie Pizza,420,Weight Loss,M39
+Sunday,Snack,Apple with Almond Butter,210,Weight Loss,M40
+Monday,Breakfast,Protein Oatmeal Bowl,450,Weight Maintenance,M01
+Monday,Lunch,Turkey Salad Wrap,410,Weight Maintenance,M07
+Monday,Dinner,High Protein Turkey Chili,490,Weight Maintenance,M14
+Monday,Snack,Rice Cakes with Peanut Butter,220,Weight Maintenance,M19
+Tuesday,Breakfast,Avocado Toast with Egg,380,Weight Maintenance,M02
+Tuesday,Lunch,Brown Rice Tofu Bowl,480,Weight Maintenance,M09
+Tuesday,Dinner,Vegetable Lasagna,520,Weight Maintenance,M34
+Tuesday,Snack,Mixed Nuts and Berries,250,Weight Maintenance,M17
+Wednesday,Breakfast,Shakshuka with Feta,360,Weight Maintenance,M23
+Wednesday,Lunch,Grilled Chicken Quinoa Salad,550,Weight Maintenance,M06
+Wednesday,Dinner,Beef and Broccoli Stir Fry,580,Weight Maintenance,M12
+Wednesday,Snack,Cottage Cheese with Pineapple,160,Weight Maintenance,M20
+Thursday,Breakfast,Keto Bacon and Eggs,420,Weight Maintenance,M05
+Thursday,Lunch,Spicy Tuna Poke Bowl,470,Weight Maintenance,M28
+Thursday,Dinner,Moroccan Lamb Tagine,580,Weight Maintenance,M38
+Thursday,Snack,Protein Energy Balls,190,Weight Maintenance,M42
+Friday,Breakfast,Steel Cut Oats with Almonds,380,Weight Maintenance,M22
+Friday,Lunch,Beef Burrito Bowl,640,Weight Maintenance,M30
+Friday,Dinner,Eggplant Parmesan,480,Weight Maintenance,M37
+Friday,Snack,Trail Mix,230,Weight Maintenance,M45
+Saturday,Breakfast,Protein Oatmeal Bowl,450,Weight Maintenance,M01
+Saturday,Lunch,Turkey Salad Wrap,410,Weight Maintenance,M07
+Saturday,Dinner,High Protein Turkey Chili,490,Weight Maintenance,M14
+Saturday,Snack,Rice Cakes with Peanut Butter,220,Weight Maintenance,M19
+Sunday,Breakfast,Avocado Toast with Egg,380,Weight Maintenance,M02
+Sunday,Lunch,Brown Rice Tofu Bowl,480,Weight Maintenance,M09
+Sunday,Dinner,Vegetable Lasagna,520,Weight Maintenance,M34
+Sunday,Snack,Mixed Nuts and Berries,250,Weight Maintenance,M17
+Monday,Breakfast,Steel Cut Oats with Almonds,380,Endurance Training,M22
+Monday,Lunch,Brown Rice Tofu Bowl,480,Endurance Training,M09
+Monday,Dinner,Pad Thai with Tofu,540,Endurance Training,M35
+Monday,Snack,Rice Cakes with Peanut Butter,220,Endurance Training,M19
+Tuesday,Breakfast,Congee with Scallions,260,Endurance Training,M26
+Tuesday,Lunch,Mediterranean Falafel Bowl,460,Endurance Training,M27
+Tuesday,Dinner,Sweet Potato Chickpea Curry,510,Endurance Training,M13
+Tuesday,Snack,Trail Mix,230,Endurance Training,M45
+Wednesday,Breakfast,Protein Oatmeal Bowl,450,Endurance Training,M01
+Wednesday,Lunch,Chickpea Pasta Salad,420,Endurance Training,M29
+Wednesday,Dinner,Vegetable Lasagna,520,Endurance Training,M34
+Wednesday,Snack,Mixed Nuts and Berries,250,Endurance Training,M17
+Thursday,Breakfast,Breakfast Burrito,520,Endurance Training,M24
+Thursday,Lunch,Grilled Chicken Quinoa Salad,550,Endurance Training,M06
+Thursday,Dinner,Grilled Steak with Sweet Potato,650,Endurance Training,M36
+Thursday,Snack,Apple with Almond Butter,210,Endurance Training,M40
+Friday,Breakfast,Protein Pancakes,480,Endurance Training,M21
+Friday,Lunch,Beef Burrito Bowl,640,Endurance Training,M30
+Friday,Dinner,Pad Thai with Tofu,540,Endurance Training,M35
+Friday,Snack,Rice Cakes with Peanut Butter,220,Endurance Training,M19
+Saturday,Breakfast,Steel Cut Oats with Almonds,380,Endurance Training,M22
+Saturday,Lunch,Brown Rice Tofu Bowl,480,Endurance Training,M09
+Saturday,Dinner,Pad Thai with Tofu,540,Endurance Training,M35
+Saturday,Snack,Rice Cakes with Peanut Butter,220,Endurance Training,M19
+Sunday,Breakfast,Congee with Scallions,260,Endurance Training,M26
+Sunday,Lunch,Mediterranean Falafel Bowl,460,Endurance Training,M27
+Sunday,Dinner,Sweet Potato Chickpea Curry,510,Endurance Training,M13
+Sunday,Snack,Trail Mix,230,Endurance Training,M45
+Monday,Breakfast,Vegan Tofu Scramble,290,Vegetarian or Vegan,M04
+Monday,Lunch,Brown Rice Tofu Bowl,480,Vegetarian or Vegan,M09
+Monday,Dinner,Sweet Potato Chickpea Curry,510,Vegetarian or Vegan,M13
+Monday,Snack,Hummus and Carrot Sticks,180,Vegetarian or Vegan,M18
+Tuesday,Breakfast,Steel Cut Oats with Almonds,380,Vegetarian or Vegan,M22
+Tuesday,Lunch,Mediterranean Falafel Bowl,460,Vegetarian or Vegan,M27
+Tuesday,Dinner,Pad Thai with Tofu,540,Vegetarian or Vegan,M35
+Tuesday,Snack,Edamame with Sea Salt,150,Vegetarian or Vegan,M43
+Wednesday,Breakfast,Congee with Scallions,260,Vegetarian or Vegan,M26
+Wednesday,Lunch,Chickpea Pasta Salad,420,Vegetarian or Vegan,M29
+Wednesday,Dinner,Vegetable Lasagna,520,Vegetarian or Vegan,M34
+Wednesday,Snack,Apple with Almond Butter,210,Vegetarian or Vegan,M40
+Thursday,Breakfast,Greek Yogurt Parfait,320,Vegetarian or Vegan,M03
+Thursday,Lunch,Lentil Soup with Spinach,340,Vegetarian or Vegan,M08
+Thursday,Dinner,Eggplant Parmesan,480,Vegetarian or Vegan,M37
+Thursday,Snack,Trail Mix,230,Vegetarian or Vegan,M45
+Friday,Breakfast,Vegan Tofu Scramble,290,Vegetarian or Vegan,M04
+Friday,Lunch,Butternut Squash Soup,260,Vegetarian or Vegan,M32
+Friday,Dinner,Cauliflower Crust Veggie Pizza,420,Vegetarian or Vegan,M39
+Friday,Snack,Mixed Nuts and Berries,250,Vegetarian or Vegan,M17
+Saturday,Breakfast,Vegan Tofu Scramble,290,Vegetarian or Vegan,M04
+Saturday,Lunch,Brown Rice Tofu Bowl,480,Vegetarian or Vegan,M09
+Saturday,Dinner,Sweet Potato Chickpea Curry,510,Vegetarian or Vegan,M13
+Saturday,Snack,Hummus and Carrot Sticks,180,Vegetarian or Vegan,M18
+Sunday,Breakfast,Steel Cut Oats with Almonds,380,Vegetarian or Vegan,M22
+Sunday,Lunch,Mediterranean Falafel Bowl,460,Vegetarian or Vegan,M27
+Sunday,Dinner,Pad Thai with Tofu,540,Vegetarian or Vegan,M35
+Sunday,Snack,Edamame with Sea Salt,150,Vegetarian or Vegan,M43
+Monday,Breakfast,Keto Bacon and Eggs,420,High-Protein Low-Carb,M05
+Monday,Lunch,Low Carb Chicken Lettuce Wraps,310,High-Protein Low-Carb,M10
+Monday,Dinner,Baked Salmon with Asparagus,620,High-Protein Low-Carb,M11
+Monday,Snack,Beef Jerky,120,High-Protein Low-Carb,M44
+Tuesday,Breakfast,Keto Bacon and Eggs,420,High-Protein Low-Carb,M05
+Tuesday,Lunch,Spicy Tuna Poke Bowl,470,High-Protein Low-Carb,M28
+Tuesday,Dinner,Herb Roasted Chicken Thighs,560,High-Protein Low-Carb,M33
+Tuesday,Snack,Whey Protein Shake,200,High-Protein Low-Carb,M16
+Wednesday,Breakfast,Smoked Salmon Bagel,440,High-Protein Low-Carb,M25
+Wednesday,Lunch,Low Carb Chicken Lettuce Wraps,310,High-Protein Low-Carb,M10
+Wednesday,Dinner,Grilled Steak with Sweet Potato,650,High-Protein Low-Carb,M36
+Wednesday,Snack,Beef Jerky,120,High-Protein Low-Carb,M44
+Thursday,Breakfast,Keto Bacon and Eggs,420,High-Protein Low-Carb,M05
+Thursday,Lunch,Grilled Shrimp Tacos,400,High-Protein Low-Carb,M31
+Thursday,Dinner,High Protein Turkey Chili,490,High-Protein Low-Carb,M14
+Thursday,Snack,Whey Protein Shake,200,High-Protein Low-Carb,M16
+Friday,Breakfast,Protein Pancakes,480,High-Protein Low-Carb,M21
+Friday,Lunch,Grilled Chicken Quinoa Salad,550,High-Protein Low-Carb,M06
+Friday,Dinner,Baked Salmon with Asparagus,620,High-Protein Low-Carb,M11
+Friday,Snack,Beef Jerky,120,High-Protein Low-Carb,M44
+Saturday,Breakfast,Keto Bacon and Eggs,420,High-Protein Low-Carb,M05
+Saturday,Lunch,Low Carb Chicken Lettuce Wraps,310,High-Protein Low-Carb,M10
+Saturday,Dinner,Baked Salmon with Asparagus,620,High-Protein Low-Carb,M11
+Saturday,Snack,Beef Jerky,120,High-Protein Low-Carb,M44
+Sunday,Breakfast,Keto Bacon and Eggs,420,High-Protein Low-Carb,M05
+Sunday,Lunch,Spicy Tuna Poke Bowl,470,High-Protein Low-Carb,M28
+Sunday,Dinner,Herb Roasted Chicken Thighs,560,High-Protein Low-Carb,M33
+Sunday,Snack,Whey Protein Shake,200,High-Protein Low-Carb,M16

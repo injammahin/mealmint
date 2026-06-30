@@ -1,0 +1,137 @@
+MealID,MealName,IngredientName,Quantity,Unit,Category,StoreSection
+M01,Protein Oatmeal Bowl,Rolled Oats,50g,g,Pantry,Dry Goods
+M01,Protein Oatmeal Bowl,Whey Protein Powder,30g,g,Supplements,Health & Supplements
+M01,Protein Oatmeal Bowl,Almond Milk,200ml,ml,Dairy & Alternatives,Dairy & Alternatives
+M01,Protein Oatmeal Bowl,Banana,1 piece,piece,Produce,Produce
+M02,Avocado Toast with Egg,Whole Wheat Bread,2 slices,slices,Bakery,Bakery
+M02,Avocado Toast with Egg,Avocado,1 piece,piece,Produce,Produce
+M02,Avocado Toast with Egg,Eggs,2 pieces,pieces,Dairy & Eggs,Dairy & Eggs
+M03,Greek Yogurt Parfait,Greek Yogurt,200g,g,Dairy & Eggs,Dairy & Eggs
+M03,Greek Yogurt Parfait,Honey,1 tbsp,tbsp,Pantry,Dry Goods
+M03,Greek Yogurt Parfait,Mixed Berries,50g,g,Produce,Produce
+M03,Greek Yogurt Parfait,Granola,30g,g,Pantry,Dry Goods
+M04,Vegan Tofu Scramble,Firm Tofu,200g,g,Produce,Produce
+M04,Vegan Tofu Scramble,Spinach,50g,g,Produce,Produce
+M04,Vegan Tofu Scramble,Olive Oil,1 tbsp,tbsp,Pantry,Dry Goods
+M05,Keto Bacon and Eggs,Bacon,3 slices,slices,Meat,Meat & Seafood
+M05,Keto Bacon and Eggs,Eggs,3 pieces,pieces,Dairy & Eggs,Dairy & Eggs
+M05,Keto Bacon and Eggs,Butter,10g,g,Dairy & Eggs,Dairy & Eggs
+M06,Grilled Chicken Quinoa Salad,Chicken Breast,150g,g,Meat,Meat & Seafood
+M06,Grilled Chicken Quinoa Salad,Quinoa,60g,g,Pantry,Dry Goods
+M06,Grilled Chicken Quinoa Salad,Cucumber,0.5 piece,piece,Produce,Produce
+M06,Grilled Chicken Quinoa Salad,Cherry Tomatoes,50g,g,Produce,Produce
+M07,Turkey Salad Wrap,Whole Wheat Tortilla,1 piece,piece,Bakery,Bakery
+M07,Turkey Salad Wrap,Sliced Turkey Breast,100g,g,Meat,Meat & Seafood
+M07,Turkey Salad Wrap,Lettuce,2 leaves,leaves,Produce,Produce
+M07,Turkey Salad Wrap,Light Mayonnaise,1 tbsp,tbsp,Pantry,Dry Goods
+M08,Lentil Soup with Spinach,Brown Lentils,100g,g,Pantry,Dry Goods
+M08,Lentil Soup with Spinach,Spinach,100g,g,Produce,Produce
+M08,Lentil Soup with Spinach,Onion,0.5 piece,piece,Produce,Produce
+M08,Lentil Soup with Spinach,Indian Spices,1 tsp,tsp,Pantry,Dry Goods
+M09,Brown Rice Tofu Bowl,Brown Rice,80g,g,Pantry,Dry Goods
+M09,Brown Rice Tofu Bowl,Firm Tofu,150g,g,Produce,Produce
+M09,Brown Rice Tofu Bowl,Broccoli,100g,g,Produce,Produce
+M09,Brown Rice Tofu Bowl,Soy Sauce,1 tbsp,tbsp,Pantry,Dry Goods
+M10,Low Carb Chicken Lettuce Wraps,Chicken Breast,150g,g,Meat,Meat & Seafood
+M10,Low Carb Chicken Lettuce Wraps,Iceberg Lettuce,1 head,head,Produce,Produce
+M10,Low Carb Chicken Lettuce Wraps,Garlic,2 cloves,cloves,Produce,Produce
+M11,Baked Salmon with Asparagus,Salmon Fillet,150g,g,Meat,Meat & Seafood
+M11,Baked Salmon with Asparagus,Asparagus,100g,g,Produce,Produce
+M11,Baked Salmon with Asparagus,Lemon,0.5 piece,piece,Produce,Produce
+M12,Beef and Broccoli Stir Fry,Flank Steak,150g,g,Meat,Meat & Seafood
+M12,Beef and Broccoli Stir Fry,Broccoli,150g,g,Produce,Produce
+M12,Beef and Broccoli Stir Fry,Sesame Oil,1 tbsp,tbsp,Pantry,Dry Goods
+M13,Sweet Potato Chickpea Curry,Sweet Potato,150g,g,Produce,Produce
+M13,Sweet Potato Chickpea Curry,Canned Chickpeas,100g,g,Pantry,Dry Goods
+M13,Sweet Potato Chickpea Curry,Coconut Milk,100ml,ml,Pantry,Dry Goods
+M14,High Protein Turkey Chili,Lean Ground Turkey,150g,g,Meat,Meat & Seafood
+M14,High Protein Turkey Chili,Canned Kidney Beans,100g,g,Pantry,Dry Goods
+M14,High Protein Turkey Chili,Crushed Tomatoes,150g,g,Pantry,Dry Goods
+M15,Zucchini Noodles with Pesto,Zucchini,2 pieces,pieces,Produce,Produce
+M15,Zucchini Noodles with Pesto,Basil Pesto,2 tbsp,tbsp,Pantry,Dry Goods
+M16,Whey Protein Shake,Whey Protein Powder,30g,g,Supplements,Health & Supplements
+M16,Whey Protein Shake,Water,300ml,ml,Pantry,Dry Goods
+M17,Mixed Nuts and Berries,Almonds and Walnuts,30g,g,Pantry,Dry Goods
+M17,Mixed Nuts and Berries,Fresh Blueberries,50g,g,Produce,Produce
+M18,Hummus and Carrot Sticks,Traditional Hummus,4 tbsp,tbsp,Delicatessen,Deli
+M18,Hummus and Carrot Sticks,Carrots,2 pieces,pieces,Produce,Produce
+M19,Rice Cakes with Peanut Butter,Rice Cakes,2 pieces,pieces,Pantry,Dry Goods
+M19,Rice Cakes with Peanut Butter,Peanut Butter,2 tbsp,tbsp,Pantry,Dry Goods
+M20,Cottage Cheese with Pineapple,Low Fat Cottage Cheese,150g,g,Dairy & Eggs,Dairy & Eggs
+M20,Cottage Cheese with Pineapple,Pineapple Chunks,50g,g,Produce,Produce
+M21,Protein Pancakes,Oat Flour,60g,g,Pantry,Dry Goods
+M21,Protein Pancakes,Whey Protein Powder,30g,g,Supplements,Health & Supplements
+M21,Protein Pancakes,Eggs,2 pieces,pieces,Dairy & Eggs,Dairy & Eggs
+M21,Protein Pancakes,Maple Syrup,1 tbsp,tbsp,Pantry,Dry Goods
+M22,Steel Cut Oats with Almonds,Steel Cut Oats,60g,g,Pantry,Dry Goods
+M22,Steel Cut Oats with Almonds,Almonds,20g,g,Pantry,Dry Goods
+M22,Steel Cut Oats with Almonds,Almond Milk,200ml,ml,Dairy & Alternatives,Dairy & Alternatives
+M23,Shakshuka with Feta,Eggs,2 pieces,pieces,Dairy & Eggs,Dairy & Eggs
+M23,Shakshuka with Feta,Crushed Tomatoes,150g,g,Pantry,Dry Goods
+M23,Shakshuka with Feta,Feta Cheese,30g,g,Dairy & Eggs,Dairy & Eggs
+M23,Shakshuka with Feta,Bell Pepper,0.5 piece,piece,Produce,Produce
+M24,Breakfast Burrito,Flour Tortilla,1 piece,piece,Bakery,Bakery
+M24,Breakfast Burrito,Eggs,2 pieces,pieces,Dairy & Eggs,Dairy & Eggs
+M24,Breakfast Burrito,Black Beans,80g,g,Pantry,Dry Goods
+M24,Breakfast Burrito,Shredded Cheddar,30g,g,Dairy & Eggs,Dairy & Eggs
+M25,Smoked Salmon Bagel,Bagel,1 piece,piece,Bakery,Bakery
+M25,Smoked Salmon Bagel,Smoked Salmon,80g,g,Meat,Meat & Seafood
+M25,Smoked Salmon Bagel,Cream Cheese,20g,g,Dairy & Eggs,Dairy & Eggs
+M26,Congee with Scallions,Jasmine Rice,60g,g,Pantry,Dry Goods
+M26,Congee with Scallions,Scallions,2 stalks,stalks,Produce,Produce
+M26,Congee with Scallions,Vegetable Stock,400ml,ml,Pantry,Dry Goods
+M27,Mediterranean Falafel Bowl,Falafel Mix,120g,g,Pantry,Dry Goods
+M27,Mediterranean Falafel Bowl,Cucumber,0.5 piece,piece,Produce,Produce
+M27,Mediterranean Falafel Bowl,Tahini,1 tbsp,tbsp,Pantry,Dry Goods
+M27,Mediterranean Falafel Bowl,Pita Bread,1 piece,piece,Bakery,Bakery
+M28,Spicy Tuna Poke Bowl,Ahi Tuna,150g,g,Meat,Meat & Seafood
+M28,Spicy Tuna Poke Bowl,Sushi Rice,70g,g,Pantry,Dry Goods
+M28,Spicy Tuna Poke Bowl,Sriracha Mayo,1 tbsp,tbsp,Pantry,Dry Goods
+M28,Spicy Tuna Poke Bowl,Avocado,0.5 piece,piece,Produce,Produce
+M29,Chickpea Pasta Salad,Chickpea Pasta,80g,g,Pantry,Dry Goods
+M29,Chickpea Pasta Salad,Cherry Tomatoes,60g,g,Produce,Produce
+M29,Chickpea Pasta Salad,Olive Oil,1 tbsp,tbsp,Pantry,Dry Goods
+M30,Beef Burrito Bowl,Ground Beef,150g,g,Meat,Meat & Seafood
+M30,Beef Burrito Bowl,Brown Rice,80g,g,Pantry,Dry Goods
+M30,Beef Burrito Bowl,Black Beans,80g,g,Pantry,Dry Goods
+M30,Beef Burrito Bowl,Shredded Cheddar,30g,g,Dairy & Eggs,Dairy & Eggs
+M31,Grilled Shrimp Tacos,Shrimp,150g,g,Meat,Meat & Seafood
+M31,Grilled Shrimp Tacos,Corn Tortilla,2 pieces,pieces,Bakery,Bakery
+M31,Grilled Shrimp Tacos,Cabbage Slaw,60g,g,Produce,Produce
+M32,Butternut Squash Soup,Butternut Squash,200g,g,Produce,Produce
+M32,Butternut Squash Soup,Vegetable Stock,300ml,ml,Pantry,Dry Goods
+M32,Butternut Squash Soup,Coconut Milk,50ml,ml,Pantry,Dry Goods
+M33,Herb Roasted Chicken Thighs,Chicken Thighs,200g,g,Meat,Meat & Seafood
+M33,Herb Roasted Chicken Thighs,Rosemary,1 tsp,tsp,Pantry,Dry Goods
+M33,Herb Roasted Chicken Thighs,Olive Oil,1 tbsp,tbsp,Pantry,Dry Goods
+M34,Vegetable Lasagna,Lasagna Sheets,100g,g,Pantry,Dry Goods
+M34,Vegetable Lasagna,Ricotta Cheese,100g,g,Dairy & Eggs,Dairy & Eggs
+M34,Vegetable Lasagna,Zucchini,1 piece,piece,Produce,Produce
+M34,Vegetable Lasagna,Marinara Sauce,150g,g,Pantry,Dry Goods
+M35,Pad Thai with Tofu,Rice Noodles,100g,g,Pantry,Dry Goods
+M35,Pad Thai with Tofu,Firm Tofu,150g,g,Produce,Produce
+M35,Pad Thai with Tofu,Bean Sprouts,50g,g,Produce,Produce
+M35,Pad Thai with Tofu,Pad Thai Sauce,2 tbsp,tbsp,Pantry,Dry Goods
+M36,Grilled Steak with Sweet Potato,Sirloin Steak,180g,g,Meat,Meat & Seafood
+M36,Grilled Steak with Sweet Potato,Sweet Potato,150g,g,Produce,Produce
+M36,Grilled Steak with Sweet Potato,Butter,10g,g,Dairy & Eggs,Dairy & Eggs
+M37,Eggplant Parmesan,Eggplant,1 piece,piece,Produce,Produce
+M37,Eggplant Parmesan,Mozzarella Cheese,60g,g,Dairy & Eggs,Dairy & Eggs
+M37,Eggplant Parmesan,Marinara Sauce,120g,g,Pantry,Dry Goods
+M38,Moroccan Lamb Tagine,Lamb Shoulder,180g,g,Meat,Meat & Seafood
+M38,Moroccan Lamb Tagine,Dried Apricots,30g,g,Pantry,Dry Goods
+M38,Moroccan Lamb Tagine,Moroccan Spice Blend,1 tsp,tsp,Pantry,Dry Goods
+M39,Cauliflower Crust Veggie Pizza,Cauliflower Crust,1 piece,piece,Pantry,Dry Goods
+M39,Cauliflower Crust Veggie Pizza,Mozzarella Cheese,60g,g,Dairy & Eggs,Dairy & Eggs
+M39,Cauliflower Crust Veggie Pizza,Mixed Bell Peppers,60g,g,Produce,Produce
+M40,Apple with Almond Butter,Apple,1 piece,piece,Produce,Produce
+M40,Apple with Almond Butter,Almond Butter,2 tbsp,tbsp,Pantry,Dry Goods
+M41,Greek Yogurt with Honey,Greek Yogurt,150g,g,Dairy & Eggs,Dairy & Eggs
+M41,Greek Yogurt with Honey,Honey,1 tbsp,tbsp,Pantry,Dry Goods
+M42,Protein Energy Balls,Rolled Oats,30g,g,Pantry,Dry Goods
+M42,Protein Energy Balls,Peanut Butter,1 tbsp,tbsp,Pantry,Dry Goods
+M42,Protein Energy Balls,Whey Protein Powder,15g,g,Supplements,Health & Supplements
+M43,Edamame with Sea Salt,Edamame Pods,100g,g,Produce,Produce
+M43,Edamame with Sea Salt,Sea Salt,1 pinch,pinch,Pantry,Dry Goods
+M44,Beef Jerky,Beef Jerky,30g,g,Meat,Meat & Seafood
+M45,Trail Mix,Mixed Dried Fruit and Nuts,40g,g,Pantry,Dry Goods

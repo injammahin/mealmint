@@ -1,0 +1,8 @@
+Goal,MinCal,MaxCal,MinProt,MaxProt,MinCarb,MaxCarb,MinFat,MaxFat,BreakfastPct,LunchPct,DinnerPct,SnackPct
+Muscle Gain,2800,3200,160,200,300,350,70,90,20,30,35,15
+Weight Loss,1500,1800,120,150,120,160,40,55,30,35,25,10
+Weight Maintenance,2000,2400,100,130,220,260,60,80,25,30,35,10
+Endurance Training,2600,3000,110,140,380,440,65,80,25,30,30,15
+Balanced Healthy Eating,1800,2200,90,120,200,240,55,70,25,30,35,10
+Vegetarian or Vegan,1800,2200,80,110,220,270,50,65,25,30,35,10
+High-Protein Low-Carb,1600,1900,150,180,50,80,65,80,25,35,30,10

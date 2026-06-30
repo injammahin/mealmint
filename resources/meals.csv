@@ -1,0 +1,46 @@
+ID,Name,Calories,Protein,Carbs,Fats,Cuisine,Type,DietaryTags
+M01,Protein Oatmeal Bowl,450,30,55,10,American,Breakfast,Vegetarian
+M02,Avocado Toast with Egg,380,15,35,18,Mexican,Breakfast,Vegetarian
+M03,Greek Yogurt Parfait,320,22,40,5,Mediterranean,Breakfast,Vegetarian
+M04,Vegan Tofu Scramble,290,20,15,14,Asian,Breakfast,Vegan;Vegetarian;Dairy-Free;Gluten-Free
+M05,Keto Bacon and Eggs,420,25,2,32,American,Breakfast,High-Protein;Low-Carb;Gluten-Free
+M06,Grilled Chicken Quinoa Salad,550,42,45,12,Mediterranean,Lunch,High-Protein;Gluten-Free
+M07,Turkey Salad Wrap,410,28,38,10,American,Lunch,
+M08,Lentil Soup with Spinach,340,18,52,4,Indian,Lunch,Vegetarian;Vegan;Dairy-Free
+M09,Brown Rice Tofu Bowl,480,22,65,11,Asian,Lunch,Vegetarian;Vegan;Dairy-Free
+M10,Low Carb Chicken Lettuce Wraps,310,35,8,12,Asian,Lunch,High-Protein;Low-Carb;Gluten-Free;Dairy-Free
+M11,Baked Salmon with Asparagus,620,45,10,38,Mediterranean,Dinner,High-Protein;Low-Carb;Gluten-Free;Dairy-Free
+M12,Beef and Broccoli Stir Fry,580,38,25,22,Asian,Dinner,Gluten-Free;Dairy-Free
+M13,Sweet Potato Chickpea Curry,510,14,78,12,Indian,Dinner,Vegetarian;Vegan;Dairy-Free
+M14,High Protein Turkey Chili,490,36,42,8,American,Dinner,High-Protein;Gluten-Free;Dairy-Free
+M15,Zucchini Noodles with Pesto,280,8,12,24,Italian,Dinner,Vegetarian;Gluten-Free
+M16,Whey Protein Shake,200,25,8,3,American,Snack,High-Protein;Vegetarian;Gluten-Free
+M17,Mixed Nuts and Berries,250,5,15,18,American,Snack,Vegetarian;Vegan;Gluten-Free;Dairy-Free
+M18,Hummus and Carrot Sticks,180,6,22,8,Mediterranean,Snack,Vegetarian;Vegan;Dairy-Free
+M19,Rice Cakes with Peanut Butter,220,7,24,11,American,Snack,Vegetarian;Vegan;Dairy-Free
+M20,Cottage Cheese with Pineapple,160,14,15,2,American,Snack,Vegetarian;Gluten-Free
+M21,Protein Pancakes,480,32,52,14,American,Breakfast,High-Protein
+M22,Steel Cut Oats with Almonds,380,14,58,12,American,Breakfast,Vegetarian;Vegan;Dairy-Free
+M23,Shakshuka with Feta,360,20,18,22,Mediterranean,Breakfast,Vegetarian;Gluten-Free
+M24,Breakfast Burrito,520,28,48,22,Mexican,Breakfast,High-Protein
+M25,Smoked Salmon Bagel,440,26,46,15,American,Breakfast,High-Protein
+M26,Congee with Scallions,260,10,48,3,Asian,Breakfast,Vegetarian;Vegan;Dairy-Free;Gluten-Free
+M27,Mediterranean Falafel Bowl,460,16,62,16,Mediterranean,Lunch,Vegetarian;Vegan;Dairy-Free
+M28,Spicy Tuna Poke Bowl,470,38,48,12,Asian,Lunch,High-Protein;Gluten-Free;Dairy-Free
+M29,Chickpea Pasta Salad,420,18,60,11,Italian,Lunch,Vegetarian;Vegan;Dairy-Free
+M30,Beef Burrito Bowl,640,40,62,22,Mexican,Lunch,High-Protein
+M31,Grilled Shrimp Tacos,400,30,40,12,Mexican,Lunch,High-Protein;Dairy-Free
+M32,Butternut Squash Soup,260,6,42,8,American,Lunch,Vegetarian;Vegan;Dairy-Free;Gluten-Free
+M33,Herb Roasted Chicken Thighs,560,42,18,32,American,Dinner,High-Protein;Low-Carb;Gluten-Free;Dairy-Free
+M34,Vegetable Lasagna,520,24,55,20,Italian,Dinner,Vegetarian
+M35,Pad Thai with Tofu,540,20,68,18,Asian,Dinner,Vegetarian;Dairy-Free
+M36,Grilled Steak with Sweet Potato,650,48,40,28,American,Dinner,High-Protein;Gluten-Free;Dairy-Free
+M37,Eggplant Parmesan,480,20,38,26,Italian,Dinner,Vegetarian;Gluten-Free
+M38,Moroccan Lamb Tagine,580,38,42,26,Mediterranean,Dinner,Gluten-Free;Dairy-Free
+M39,Cauliflower Crust Veggie Pizza,420,22,30,22,Italian,Dinner,Vegetarian;Low-Carb;Gluten-Free
+M40,Apple with Almond Butter,210,5,24,11,American,Snack,Vegetarian;Vegan;Dairy-Free;Gluten-Free
+M41,Greek Yogurt with Honey,180,16,18,4,Mediterranean,Snack,Vegetarian;Gluten-Free
+M42,Protein Energy Balls,190,9,20,8,American,Snack,Vegetarian;Gluten-Free
+M43,Edamame with Sea Salt,150,12,11,5,Asian,Snack,Vegetarian;Vegan;Dairy-Free;Gluten-Free
+M44,Beef Jerky,120,18,4,3,American,Snack,High-Protein;Low-Carb;Gluten-Free;Dairy-Free
+M45,Trail Mix,230,7,20,15,American,Snack,Vegetarian;Vegan;Dairy-Free

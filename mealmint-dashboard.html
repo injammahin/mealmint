@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MealMint Health Labs responsive meal planning application demo.">
+  <title>Dashboard | MealMint Health Labs</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-page="dashboard">
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="nav-wrap">
+        <a class="brand-link" href="mealmint-index.html" aria-label="MealMint Health Labs home">
+          <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+            <polygon points="32 4 56 18 32 60 8 18" fill="#2ECC8F"></polygon>
+            <polygon points="32 4 56 18 34 60 34 10" fill="#1A8C5F" opacity="0.42"></polygon>
+          </svg>
+          <span>
+            <span class="brand-name">MealMint Health Labs</span>
+            <!-- <span class="brand-subtitle"> </span> -->
+          </span>
+        </a>
+        <nav class="nav-menu" aria-label="Primary navigation">
+          <a class="nav-link" data-nav="index" href="mealmint-index.html">Home</a>
+          <a class="nav-link" data-nav="goals" href="mealmint-goals.html">Goals</a>
+          <a class="nav-link" data-nav="library" href="mealmint-library.html">Library</a>
+          <a class="nav-link" data-nav="planner" href="mealmint-planner.html">Planner</a>
+          <a class="nav-link" data-nav="dashboard" href="mealmint-dashboard.html">Dashboard</a>
+          <a class="nav-link" data-nav="grocery" href="mealmint-grocery.html">Grocery</a>
+        </nav>
+        <div class="nav-actions" aria-label="MealMint status">
+          <span class="nav-pill" data-goal-chip>Goal: --</span>
+          <span class="nav-pill" data-kcal-chip>0 kcal</span>
+          <span class="nav-avatar" aria-hidden="true"></span>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="container">
+        <div class="page-actions">
+          <div class="page-heading compact" style="margin-bottom:0">
+            <p class="eyebrow">Predictive Nutrition Dashboard</p>
+            <h1>Nutrition Dashboard</h1>
+            <p>Weekly cumulative metrics and compliance evaluation against active goal baseline profiles.</p>
+          </div>
+          <div class="tag-row no-print">
+            <a class="btn btn-secondary" href="mealmint-planner.html">Back to Planner</a>
+            <button class="btn btn-secondary" data-print-summary>Print Summary</button>
+          </div>
+        </div>
+        <div data-dashboard-alert></div>
+        <div class="metric-grid" data-metric-grid></div>
+        <div class="dashboard-grid">
+          <div class="dashboard-main">
+            <h2>Daily Breakdown Table View</h2>
+            <div class="table-card table-wrap" data-daily-table></div>
+            <h2 style="margin-top:32px">Goal Comparison</h2>
+            <div class="goal-compare" data-goal-compare></div>
+          </div>
+          <aside class="side-stack" data-dashboard-side></aside>
+        </div>
+        <section class="insights-card card">
+          <p class="eyebrow muted">Nutrition Insights</p>
+          <h2>Nutrition Insights</h2>
+          <div data-insights></div>
+        </section>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <span>MealMint Health Labs</span>
+        <!-- <span> </span> -->
+      </div>
+    </footer>
+  </div>
+  <script src="assets/js/app.js" defer></script>
+</body>
+
+</html>
