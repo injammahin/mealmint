@@ -223,28 +223,105 @@
   function initGoals() {
     const grid = document.querySelector('[data-goal-grid]');
     if (!grid) return;
+
     const selected = getSelectedGoal();
-    grid.innerHTML = GOALS.map((goal) => `
-      <article class="goal-card card ${goal.name === selected ? 'active' : ''}">
-        <div class="tag-row"><span class="tag mint">${goal.icon} ${escapeHTML(goal.name)}</span></div>
-        <h3>${escapeHTML(goal.name)}</h3>
-        <p>${escapeHTML(goal.desc)}</p>
-        <button class="btn ${goal.name === selected ? 'btn-success' : 'btn-primary'}" data-select-goal="${escapeHTML(goal.name)}">
-          ${goal.name === selected ? 'Selected Goal' : 'Select Goal'}
+
+    const goalMeta = {
+      'Muscle Gain': {
+        label: 'Strength Focus',
+        focus: 'Higher calories',
+        support: 'Protein recovery'
+      },
+      'Weight Loss': {
+        label: 'Calorie Control',
+        focus: 'Lighter meals',
+        support: 'Protein balance'
+      },
+      'Weight Maintenance': {
+        label: 'Lifestyle Balance',
+        focus: 'Stable intake',
+        support: 'Macro rhythm'
+      },
+      'Endurance Training': {
+        label: 'Training Fuel',
+        focus: 'Carb energy',
+        support: 'Weekly stamina'
+      },
+      'Balanced Healthy Eating': {
+        label: 'Everyday Wellness',
+        focus: 'Clean balance',
+        support: 'Default baseline'
+      },
+      'Vegetarian or Vegan': {
+        label: 'Plant Forward',
+        focus: 'Vegetable meals',
+        support: 'Dietary fit'
+      },
+      'High-Protein Low-Carb': {
+        label: 'Macro Control',
+        focus: 'More protein',
+        support: 'Lower carbs'
+      }
+    };
+
+    grid.innerHTML = GOALS.map((goal, index) => {
+      const meta = goalMeta[goal.name] || {
+        label: 'Nutrition Goal',
+        focus: 'Meal planning',
+        support: 'Weekly control'
+      };
+
+      const isActive = goal.name === selected;
+
+      return `
+      <article class="goal-option ${isActive ? 'active' : ''}" data-select-goal="${escapeHTML(goal.name)}" tabindex="0" role="button" aria-pressed="${isActive}">
+        <div class="goal-option-top">
+          <span class="goal-number">${String(index + 1).padStart(2, '0')}</span>
+          <span class="goal-symbol">${goal.icon}</span>
+        </div>
+
+        <div class="goal-option-body">
+          <h3>${escapeHTML(goal.name)}</h3>
+          <p>${escapeHTML(goal.desc)}</p>
+        </div>
+
+        <div class="goal-mini-tags">
+          <span>${escapeHTML(meta.focus)}</span>
+          <span>${escapeHTML(meta.support)}</span>
+        </div>
+
+        <button class="btn ${isActive ? 'btn-success' : 'btn-primary'}" type="button">
+          ${isActive ? 'Selected Goal' : 'Select Goal'}
         </button>
       </article>
-    `).join('');
+    `;
+    }).join('');
 
-    grid.addEventListener('click', (event) => {
-      const button = event.target.closest('[data-select-goal]');
-      if (!button) return;
-      const goal = button.dataset.selectGoal;
+    const selectGoal = (goal) => {
       setSelectedGoal(goal);
       setPlan(buildDefaultPlan(goal));
       localStorage.removeItem(CHECKED_KEY);
       localStorage.removeItem(HIDDEN_KEY);
       showToast(`${goal} selected. Sample plan loaded.`);
-      setTimeout(() => { window.location.href = 'mealmint-library.html'; }, 450);
+      setTimeout(() => {
+        window.location.href = 'mealmint-library.html';
+      }, 450);
+    };
+
+    grid.addEventListener('click', (event) => {
+      const card = event.target.closest('[data-select-goal]');
+      if (!card) return;
+      selectGoal(card.dataset.selectGoal);
+    });
+
+    grid.addEventListener('keydown', (event) => {
+      const card = event.target.closest('[data-select-goal]');
+      if (!card) return;
+
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        selectGoal(card.dataset.selectGoal);
+      }
     });
   }
 
@@ -649,8 +726,8 @@
         <h2>${escapeHTML(category)}</h2>
         <div class="group-body">
           ${groups[category].map((item) => {
-            const isChecked = checked.has(item.id);
-            return `
+      const isChecked = checked.has(item.id);
+      return `
               <label class="grocery-item ${isChecked ? 'checked' : ''}">
                 <input type="checkbox" data-grocery-check="${escapeHTML(item.id)}" ${isChecked ? 'checked' : ''}>
                 <span>
@@ -660,7 +737,7 @@
                 <span class="qty">${escapeHTML(item.quantityLabel)}</span>
               </label>
             `;
-          }).join('')}
+    }).join('')}
         </div>
       </section>
     `).join('');
